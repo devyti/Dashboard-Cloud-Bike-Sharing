@@ -79,7 +79,7 @@ byseason = create_sum_byseason_df(main_df)
 rfm_df = create_rfm_df(main_df)
 
 #membuat dashboard
-st.header('Cloud Bike Share Dashboard :sparkles:')
+st.header('Capital Bike Share Dashboard :sparkles:')
 
 #penyewa harian
 st.subheader('Penyewa Harian')
@@ -201,4 +201,4 @@ ax[2].tick_params(axis='x', labelsize=35)
 
 st.pyplot(fig)
  
-st.caption('Copyright (c) 2026 All Rights Reserved [Devi Ema Dewiyanti](https://github.com/devyti/Dashboard-Cloud-Bike-Sharing)')
+st.caption('Copyright (c) 2026 All Rights Reserved [Devi Ema Dewiyanti](https://github.com/devyti/Dashboard-Bike-Sharing)')
