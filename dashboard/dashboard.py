@@ -42,7 +42,7 @@ def create_rfm_df(df):
     return rfm_df
 
 #load berkas sebagai data frame
-day_df = pd.read_csv("D:/MBKM/DICODING/submission/dashboard/main_data.csv")
+day_df = pd.read_csv(r"D:/MBKM/DICODING/submission/dashboard/main_data.csv")
 
 #memastikan kolom date bertipe datetime
 datetime_colomns = ["date"]
